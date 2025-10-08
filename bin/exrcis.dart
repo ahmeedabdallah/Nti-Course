@@ -1,17 +1,19 @@
+import'dart:io';
+void main(){
 String x=' ahmed , mohmed , ali';
   List<String> b=x.split(',');
   print(b);
   String c =b.first;
   String f=c.trim(); 
   print(f);
-  //print(f.indexOf('e'));
+  print(f.indexOf('e'));
   x.split(',').first.trim();
-  //print(x.split(',').first.trim().indexOf('e'));
+  print(x.split(',').first.trim().indexOf('e'));
   print(x.split(',')[0].trim().indexOf('e'));
   print("enter day:");
   String? input =stdin.readLineSync();
-  print (x.split.ind)
-  666666789Aa#
+  print (x.split(",").indexOf("e"));
+  
 
 
   
@@ -28,12 +30,12 @@ String x=' ahmed , mohmed , ali';
     
     default:
     print("woring day");
-  }*/
+  }
  
   print("enter hour:");
-  String? input =stdin.readLineSync();
-  int hour =int.parse(input!);
-  /*if (hour>=1 && hour<=2){
+  String? input1 =stdin.readLineSync();
+  int hour =int.parse(input1!);
+  if (hour>=1 && hour<=2){
     print("your cost is free");
   }
   else if (hour>=3 && hour <=5){
@@ -41,16 +43,19 @@ String x=' ahmed , mohmed , ali';
   }
   else if (hour>=6){
   print("your cost is : ${(30+(hour-5)*20)}");
-  }*/
+  }
   switch (hour){
-    case int hour while (hour>=1 && hour<=2):
+    case int hour: while (hour>=1 && hour<=2)
     print("your cost is free");
-    case int hour while hour>=3 && hour <=5:
+    
+    case int hour: while (hour>=3 && hour <=5){
     print("your cost is : ${(hour-2)*10}"); 
     cost = isweekend && cost >0 ? cost + 50 : cost:
+    }
 
 
-  }
+  
+}
   
   
 

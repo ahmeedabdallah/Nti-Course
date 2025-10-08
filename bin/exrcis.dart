@@ -45,18 +45,11 @@ String x=' ahmed , mohmed , ali';
   print("your cost is : ${(30+(hour-5)*20)}");
   }
   switch (hour){
-    case int hour: while (hour>=1 && hour<=2)
-    print("your cost is free");
-    
-    case int hour: while (hour>=3 && hour <=5){
-    print("your cost is : ${(hour-2)*10}"); 
-    cost = isweekend && cost >0 ? cost + 50 : cost:
-    }
-
-
-  
+    case 1:
+    print ('ksdos');
+  }
 }
-  
+
   
 
 

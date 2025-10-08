@@ -4,7 +4,6 @@ void main (){
   //bool chosse=true;
   print("please enter speed :");
   String? speed =stdin.readLineSync();
-  
   int speedLimit =int.tryParse(speed!) ??-1 ;
   if (speedLimit<=0 || speed.isEmpty){
     print("woring on speed");
